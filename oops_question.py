@@ -105,4 +105,45 @@ print("learn oops in python!")
 # print(simple_car.fuel_type())
 # print(Ele_car.fuel_type())
 
+# 6 question , static method 
+# this are use to private the function we do not direct access the function after the create a object to class access the value direct use class name ,or in which we do not need to ue the self key word 
+
+# class Car:
+#     def __init__(self,brand,name):
+#         self.brand=brand
+#         self.name=name
+
+#     # def full_name(self):
+#     #     return self.brand +"," + self.name
+
+#     # def fuel_type(self):
+#     #     return 'petrol or diesel'
+
+#     @staticmethod
+#     def car_des():
+#         return "this car speed is very highe"
+
+
+# my_car=Car('mahindra','thar')
+# print(my_car.car_des())
+# print(Car.car_des())
+
+
+# multipu inheritenc 
+# create two class battery and engine and let the ElectricCar class inherit the both demonstring
+# class Battery:
+#     def battery_info(self):
+#         return "ths is the battery"
+
+# class Engine:
+#     def engine_info(self):
+#         return "this is the engine info"
+
+# # this class enherit the multi class 
+# class ElectricCar(Battery,Engine):
+#     pass
+
+# my_new_car=ElectricCar()
+# print(my_new_car.battery_info())
+# print(my_new_car.engine_info())
 
