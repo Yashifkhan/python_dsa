@@ -11,15 +11,15 @@ list=[1,2,4,2]
 #     return False 
        
 # print(check_twice(list))
-seen=set()
-def check_dup(list):
-    for i in list:
-        if i in seen:
-            return True
-        else :
-            seen.add(i)
-    else :
-        return False
+# seen=set()
+# def check_dup(list):
+#     for i in list:
+#         if i in seen:
+#             return True
+#         else :
+#             seen.add(i)
+#     else :
+#         return False
 
-print(check_dup(list))
-print(seen)
+# print(check_dup(list))
+# print(seen)
