@@ -13,3 +13,5 @@ print("learn time efficience")
 
 # print(check_dup(list))
 # print(seen)
+
+# we have two type of dsa linear or not linear 

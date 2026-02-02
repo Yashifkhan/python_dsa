@@ -34,10 +34,35 @@ print("learn array in python")
 # num_is_grater(arr)
 
 # Update all even numbers in the array to 0
-arr = [3, 6, 9, 12, 15, 18]
-def up_even(arr):
-    for i in range(len(arr)):
-        if arr[i] %2 == 0:
-            arr[i]= 0
-    return arr
-print(up_even(arr))
+# arr = [3, 6, 9, 12, 15, 18]
+# def up_even(arr):
+#     for i in range(len(arr)):
+#         if arr[i] %2 == 0:
+#             arr[i]= 0
+#     return arr
+# print(up_even(arr))
+
+
+# 1. find The max element in array 
+# arr= [3, 7, 2, 9, 4]
+# def find_max_item(arr):
+#     max=arr[0]
+#     for i in arr:
+#         if max<i:
+#             max=i
+#     return max
+# result=find_max_item(arr)
+# print("max value is :", result)
+
+# 2. Rotate Array Left by 1
+# Given a list, rotate it left by one position.
+
+# arr = [1, 2, 3, 4, 5]
+# def rotate_arr(arr):
+#     first_val=arr[0]
+#     arr.pop(0)
+#     arr.append(first_val)
+#     return arr 
+
+# result=rotate_arr(arr)
+# print(result)
