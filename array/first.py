@@ -66,3 +66,65 @@ print("learn array in python")
 
 # result=rotate_arr(arr)
 # print(result)
+
+# day 2 
+# 1.Count Even Numbers 
+
+# arr = [1, 2, 3, 4, 6, 7, 8]
+# def count_even(arr):
+#     count=0
+#     for i in arr:
+#         if i%2 == 0:
+#             count+=1
+#     return count
+# result=count_even(arr)
+# print(result)
+
+# 2: Find Second Largest Element
+# arr = [10, 13, 20, 8, 15,6,9]
+# arr = [10, 20, 15]
+# def second_larg_num(arr):
+#     max1=0
+#     max2=0
+#     for num in arr:
+#         if num > max1:
+#             max2=max1
+#             max1=num
+#         elif num > max2 and num != max1:
+#             max2 = num
+#     return max2
+
+# result=second_larg_num(arr)
+# print(result)
+
+
+# prefix sum 
+# [5,4,6]
+# prefix[0]=5
+# prefix[1]=5,4
+# prefix[2]=5,4,6
+# prefix = [5, 9, 15]
+
+# sliding window 
+arr = [2, 1, 5, 1, 3, 2]
+k = 3
+
+# first window 
+[2, 1, 5]
+
+2 + 1 + 5 = 8
+
+# second window 
+[1, 5, 1]
+
+1 + 5 + 1 = 7
+
+# thred window 
+[5, 1, 3]
+
+5+ 1 +3=9
+
+# four window 
+[1, 3, 2]
+1+ 3 +2 =6
+
