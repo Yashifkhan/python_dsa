@@ -98,34 +98,56 @@ print("learn array in python")
 # print(result)
 
 
-# prefix sum 
-# [5,4,6]
-# prefix[0]=5
-# prefix[1]=5,4
-# prefix[2]=5,4,6
-# prefix = [5, 9, 15]
+# convert simple array to  prefix array 
+# arr=[1,2,3,4]
 
-# sliding window 
-arr = [2, 1, 5, 1, 3, 2]
-k = 3
+# def prefix_arr(arr):
+#     sum_of_num=0
+#     result=[]
+#     for i in arr:
+#         sum_of_num+=i
+#         result.append(sum_of_num)
+#     return result
+# print(prefix_arr(arr))
 
-# first window 
-[2, 1, 5]
-
-2 + 1 + 5 = 8
-
-# second window 
-[1, 5, 1]
-
-1 + 5 + 1 = 7
-
-# thred window 
-[5, 1, 3]
-
-5+ 1 +3=9
+# conver prefix array to simple array
+# arr=[3,8,14,20]
+# def simple_arr(arr):
+#     result=[]
+#     new_num=0   
+#     for i in arr:
+#         new_num=i-new_num
+#         result.append(new_num) 
+#         new_num=i
+#     return result
+# print(simple_arr(arr))
 
 
-# four window 
-[1, 3, 2]
-1+ 3 +2 =6
+
+
+
+
+# # sliding window 
+# arr = [2, 1, 5, 1, 3, 2]
+# k = 3
+
+# # first window 
+# [2, 1, 5]
+
+# 2 + 1 + 5 = 8
+
+# # second window 
+# [1, 5, 1]
+
+# 1 + 5 + 1 = 7
+
+# # thred window 
+# [5, 1, 3]
+
+# 5+ 1 +3=9
+
+
+# # four window 
+# [1, 3, 2]
+# 1+ 3 +2 =6
 
