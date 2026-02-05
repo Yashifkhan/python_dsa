@@ -129,25 +129,15 @@ print("learn array in python")
 
 # # sliding window 
 # arr = [2, 1, 5, 1, 3, 2]
-# k = 3
+# k = 2
 
-# # first window 
-# [2, 1, 5]
+# k mains = devide into who many part
 
-# 2 + 1 + 5 = 8
+# sum is 3
+# left_value=2
 
-# # second window 
-# [1, 5, 1]
-
-# 1 + 5 + 1 = 7
-
-# # thred window 
-# [5, 1, 3]
-
-# 5+ 1 +3=9
-
-
-# # four window 
-# [1, 3, 2]
-# 1+ 3 +2 =6
+# first window [2,1] 
+# new_value =5
+# Rule=old_sum - outgoing_value + new_value
+# # ans =    # 3 -2+1=2
 
