@@ -9,9 +9,9 @@ def load_videos():
     except FileNotFoundError:
         return []
 
-def save_data_helper(videos):
-    with open('youtub.text','w') as file
-    json.dump(videos,file)
+# def save_data_helper(videos):
+#     with open('youtub.text','w') as file
+#     json.dump(videos,file)
 
 def delete_video(videos):
     return "delet the video"
